@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AECCDBB71FA1A431005532DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBB61FA1A431005532DD /* AppDelegate.swift */; };
+		AECCDBB91FA1A431005532DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBB81FA1A431005532DD /* ViewController.swift */; };
+		AECCDBBC1FA1A431005532DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBBA1FA1A431005532DD /* Main.storyboard */; };
+		AECCDBBE1FA1A431005532DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBBD1FA1A431005532DD /* Assets.xcassets */; };
+		AECCDBC11FA1A431005532DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBBF1FA1A431005532DD /* LaunchScreen.storyboard */; };
+		AECCDBCC1FA1A431005532DD /* ZZPopViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBCB1FA1A431005532DD /* ZZPopViewDemoTests.swift */; };
+		AECCDBD71FA1A431005532DD /* ZZPopViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBD61FA1A431005532DD /* ZZPopViewDemoUITests.swift */; };
+		AECCDBE71FA1A50F005532DD /* ZZActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBE51FA1A50E005532DD /* ZZActionSheetView.swift */; };
+		AECCDBE81FA1A50F005532DD /* ZZAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECCDBE61FA1A50E005532DD /* ZZAlertView.swift */; };
+		AECCDBED1FA1AF15005532DD /* popview0.png in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBEA1FA1AF15005532DD /* popview0.png */; };
+		AECCDBEE1FA1AF15005532DD /* popview1.png in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBEB1FA1AF15005532DD /* popview1.png */; };
+		AECCDBEF1FA1AF15005532DD /* popview2.png in Resources */ = {isa = PBXBuildFile; fileRef = AECCDBEC1FA1AF15005532DD /* popview2.png */; };
+		F0A9F145C2C72438E9F3BCD5 /* Pods_ZZPopViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748117B33DC577BBEE653667 /* Pods_ZZPopViewDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AECCDBC81FA1A431005532DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECCDBAB1FA1A431005532DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECCDBB21FA1A431005532DD;
+			remoteInfo = ZZPopViewDemo;
+		};
+		AECCDBD31FA1A431005532DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AECCDBAB1FA1A431005532DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECCDBB21FA1A431005532DD;
+			remoteInfo = ZZPopViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A2856BAB0823A7C647CB5E /* Pods-ZZPopViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZPopViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZPopViewDemo/Pods-ZZPopViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		748117B33DC577BBEE653667 /* Pods_ZZPopViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZPopViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECCDBB31FA1A431005532DD /* ZZPopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZPopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECCDBB61FA1A431005532DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AECCDBB81FA1A431005532DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AECCDBBB1FA1A431005532DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AECCDBBD1FA1A431005532DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECCDBC01FA1A431005532DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AECCDBC21FA1A431005532DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECCDBC71FA1A431005532DD /* ZZPopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECCDBCB1FA1A431005532DD /* ZZPopViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZPopViewDemoTests.swift; sourceTree = "<group>"; };
+		AECCDBCD1FA1A431005532DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECCDBD21FA1A431005532DD /* ZZPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECCDBD61FA1A431005532DD /* ZZPopViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZPopViewDemoUITests.swift; sourceTree = "<group>"; };
+		AECCDBD81FA1A431005532DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECCDBE51FA1A50E005532DD /* ZZActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZActionSheetView.swift; sourceTree = "<group>"; };
+		AECCDBE61FA1A50E005532DD /* ZZAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZAlertView.swift; sourceTree = "<group>"; };
+		AECCDBEA1FA1AF15005532DD /* popview0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popview0.png; sourceTree = "<group>"; };
+		AECCDBEB1FA1AF15005532DD /* popview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popview1.png; sourceTree = "<group>"; };
+		AECCDBEC1FA1AF15005532DD /* popview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popview2.png; sourceTree = "<group>"; };
+		E9C9A62E3E5FBEEC4A3AF4F0 /* Pods-ZZPopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZPopViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZPopViewDemo/Pods-ZZPopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECCDBB01FA1A431005532DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A9F145C2C72438E9F3BCD5 /* Pods_ZZPopViewDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBC41FA1A431005532DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBCF1FA1A431005532DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9668EE057E24B02597067E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				748117B33DC577BBEE653667 /* Pods_ZZPopViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48575DD2060829306012959E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9A62E3E5FBEEC4A3AF4F0 /* Pods-ZZPopViewDemo.debug.xcconfig */,
+				33A2856BAB0823A7C647CB5E /* Pods-ZZPopViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AECCDBAA1FA1A431005532DD = {
+			isa = PBXGroup;
+			children = (
+				AECCDBE41FA1A50E005532DD /* ZZPopView */,
+				AECCDBB51FA1A431005532DD /* ZZPopViewDemo */,
+				AECCDBCA1FA1A431005532DD /* ZZPopViewDemoTests */,
+				AECCDBD51FA1A431005532DD /* ZZPopViewDemoUITests */,
+				AECCDBB41FA1A431005532DD /* Products */,
+				48575DD2060829306012959E /* Pods */,
+				1E9668EE057E24B02597067E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AECCDBB41FA1A431005532DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBB31FA1A431005532DD /* ZZPopViewDemo.app */,
+				AECCDBC71FA1A431005532DD /* ZZPopViewDemoTests.xctest */,
+				AECCDBD21FA1A431005532DD /* ZZPopViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECCDBB51FA1A431005532DD /* ZZPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBE91FA1AF15005532DD /* screenShot */,
+				AECCDBB61FA1A431005532DD /* AppDelegate.swift */,
+				AECCDBB81FA1A431005532DD /* ViewController.swift */,
+				AECCDBBA1FA1A431005532DD /* Main.storyboard */,
+				AECCDBBD1FA1A431005532DD /* Assets.xcassets */,
+				AECCDBBF1FA1A431005532DD /* LaunchScreen.storyboard */,
+				AECCDBC21FA1A431005532DD /* Info.plist */,
+			);
+			path = ZZPopViewDemo;
+			sourceTree = "<group>";
+		};
+		AECCDBCA1FA1A431005532DD /* ZZPopViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBCB1FA1A431005532DD /* ZZPopViewDemoTests.swift */,
+				AECCDBCD1FA1A431005532DD /* Info.plist */,
+			);
+			path = ZZPopViewDemoTests;
+			sourceTree = "<group>";
+		};
+		AECCDBD51FA1A431005532DD /* ZZPopViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBD61FA1A431005532DD /* ZZPopViewDemoUITests.swift */,
+				AECCDBD81FA1A431005532DD /* Info.plist */,
+			);
+			path = ZZPopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		AECCDBE41FA1A50E005532DD /* ZZPopView */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBE51FA1A50E005532DD /* ZZActionSheetView.swift */,
+				AECCDBE61FA1A50E005532DD /* ZZAlertView.swift */,
+			);
+			path = ZZPopView;
+			sourceTree = "<group>";
+		};
+		AECCDBE91FA1AF15005532DD /* screenShot */ = {
+			isa = PBXGroup;
+			children = (
+				AECCDBEA1FA1AF15005532DD /* popview0.png */,
+				AECCDBEB1FA1AF15005532DD /* popview1.png */,
+				AECCDBEC1FA1AF15005532DD /* popview2.png */,
+			);
+			path = screenShot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECCDBB21FA1A431005532DD /* ZZPopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECCDBDB1FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemo" */;
+			buildPhases = (
+				BD131ABCE602F1C7FCFA6D20 /* [CP] Check Pods Manifest.lock */,
+				AECCDBAF1FA1A431005532DD /* Sources */,
+				AECCDBB01FA1A431005532DD /* Frameworks */,
+				AECCDBB11FA1A431005532DD /* Resources */,
+				77C443BDD7D5361E480F2097 /* [CP] Embed Pods Frameworks */,
+				67CB0725072BF98458B32CCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZPopViewDemo;
+			productName = ZZPopViewDemo;
+			productReference = AECCDBB31FA1A431005532DD /* ZZPopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AECCDBC61FA1A431005532DD /* ZZPopViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECCDBDE1FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemoTests" */;
+			buildPhases = (
+				AECCDBC31FA1A431005532DD /* Sources */,
+				AECCDBC41FA1A431005532DD /* Frameworks */,
+				AECCDBC51FA1A431005532DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECCDBC91FA1A431005532DD /* PBXTargetDependency */,
+			);
+			name = ZZPopViewDemoTests;
+			productName = ZZPopViewDemoTests;
+			productReference = AECCDBC71FA1A431005532DD /* ZZPopViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AECCDBD11FA1A431005532DD /* ZZPopViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECCDBE11FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemoUITests" */;
+			buildPhases = (
+				AECCDBCE1FA1A431005532DD /* Sources */,
+				AECCDBCF1FA1A431005532DD /* Frameworks */,
+				AECCDBD01FA1A431005532DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECCDBD41FA1A431005532DD /* PBXTargetDependency */,
+			);
+			name = ZZPopViewDemoUITests;
+			productName = ZZPopViewDemoUITests;
+			productReference = AECCDBD21FA1A431005532DD /* ZZPopViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECCDBAB1FA1A431005532DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = artios;
+				TargetAttributes = {
+					AECCDBB21FA1A431005532DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AECCDBC61FA1A431005532DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AECCDBB21FA1A431005532DD;
+					};
+					AECCDBD11FA1A431005532DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AECCDBB21FA1A431005532DD;
+					};
+				};
+			};
+			buildConfigurationList = AECCDBAE1FA1A431005532DD /* Build configuration list for PBXProject "ZZPopViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECCDBAA1FA1A431005532DD;
+			productRefGroup = AECCDBB41FA1A431005532DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECCDBB21FA1A431005532DD /* ZZPopViewDemo */,
+				AECCDBC61FA1A431005532DD /* ZZPopViewDemoTests */,
+				AECCDBD11FA1A431005532DD /* ZZPopViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECCDBB11FA1A431005532DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCDBC11FA1A431005532DD /* LaunchScreen.storyboard in Resources */,
+				AECCDBEF1FA1AF15005532DD /* popview2.png in Resources */,
+				AECCDBED1FA1AF15005532DD /* popview0.png in Resources */,
+				AECCDBEE1FA1AF15005532DD /* popview1.png in Resources */,
+				AECCDBBE1FA1A431005532DD /* Assets.xcassets in Resources */,
+				AECCDBBC1FA1A431005532DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBC51FA1A431005532DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBD01FA1A431005532DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67CB0725072BF98458B32CCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZPopViewDemo/Pods-ZZPopViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C443BDD7D5361E480F2097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZZPopViewDemo/Pods-ZZPopViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZPopViewDemo/Pods-ZZPopViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD131ABCE602F1C7FCFA6D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZPopViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECCDBAF1FA1A431005532DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCDBB91FA1A431005532DD /* ViewController.swift in Sources */,
+				AECCDBB71FA1A431005532DD /* AppDelegate.swift in Sources */,
+				AECCDBE71FA1A50F005532DD /* ZZActionSheetView.swift in Sources */,
+				AECCDBE81FA1A50F005532DD /* ZZAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBC31FA1A431005532DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCDBCC1FA1A431005532DD /* ZZPopViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECCDBCE1FA1A431005532DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECCDBD71FA1A431005532DD /* ZZPopViewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AECCDBC91FA1A431005532DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECCDBB21FA1A431005532DD /* ZZPopViewDemo */;
+			targetProxy = AECCDBC81FA1A431005532DD /* PBXContainerItemProxy */;
+		};
+		AECCDBD41FA1A431005532DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECCDBB21FA1A431005532DD /* ZZPopViewDemo */;
+			targetProxy = AECCDBD31FA1A431005532DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AECCDBBA1FA1A431005532DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECCDBBB1FA1A431005532DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AECCDBBF1FA1A431005532DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECCDBC01FA1A431005532DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECCDBD91FA1A431005532DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AECCDBDA1FA1A431005532DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECCDBDC1FA1A431005532DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C9A62E3E5FBEEC4A3AF4F0 /* Pods-ZZPopViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECCDBDD1FA1A431005532DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A2856BAB0823A7C647CB5E /* Pods-ZZPopViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AECCDBDF1FA1A431005532DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPopViewDemo.app/ZZPopViewDemo";
+			};
+			name = Debug;
+		};
+		AECCDBE01FA1A431005532DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZPopViewDemo.app/ZZPopViewDemo";
+			};
+			name = Release;
+		};
+		AECCDBE21FA1A431005532DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZPopViewDemo;
+			};
+			name = Debug;
+		};
+		AECCDBE31FA1A431005532DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69R2C36TU3;
+				INFOPLIST_FILE = ZZPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZZPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZPopViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECCDBAE1FA1A431005532DD /* Build configuration list for PBXProject "ZZPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECCDBD91FA1A431005532DD /* Debug */,
+				AECCDBDA1FA1A431005532DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECCDBDB1FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECCDBDC1FA1A431005532DD /* Debug */,
+				AECCDBDD1FA1A431005532DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECCDBDE1FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECCDBDF1FA1A431005532DD /* Debug */,
+				AECCDBE01FA1A431005532DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECCDBE11FA1A431005532DD /* Build configuration list for PBXNativeTarget "ZZPopViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECCDBE21FA1A431005532DD /* Debug */,
+				AECCDBE31FA1A431005532DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECCDBAB1FA1A431005532DD /* Project object */;
+}
