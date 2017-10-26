@@ -54,17 +54,6 @@ public class ZZActionSheetView: UIView,UITableViewDelegate,UITableViewDataSource
         }
         
         
-        
-        var height = rowHeight * self.actionTitles.count + tipLabelHeight + cancleBtnHeight + 30
-        
-        if self.actionTitles.count >= 3 {
-            
-            height = rowHeight * 3 + tipLabelHeight + cancleBtnHeight + 30
-        }
-        
-        
-        
-        
         let tap = UITapGestureRecognizer.init(target: self, action: #selector(self.tapAction(sender:)))
         self.bgView?.addGestureRecognizer(tap)
         
@@ -147,7 +136,7 @@ public class ZZActionSheetView: UIView,UITableViewDelegate,UITableViewDataSource
         btnDownLineView.snp.makeConstraints { (make) in
             make.left.right.equalTo(self)
             make.height.equalTo(0.3)
-            make.bottom.equalTo(self.snp.bottom)
+            make.bottom.equalTo(self.snp.bottom).offset(-1)
         }
         
     }
