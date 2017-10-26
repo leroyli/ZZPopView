@@ -9,7 +9,6 @@
 import UIKit
 import SnapKit
 
-
 public typealias AlertCompletionHandler = ((ZZAlertView , Int) -> Void)?
 
 public class ZZAlertView: UIView {
