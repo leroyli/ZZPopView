@@ -117,12 +117,18 @@ public class ZZActionSheetView: UIView,UITableViewDelegate,UITableViewDataSource
             make.height.equalTo(tableviewHeight)
         })
         
+        let btnUpLineView = UIView.init(frame: CGRect.init())
+        btnUpLineView.backgroundColor = UIColor.lightGray
+        self.addSubview(btnUpLineView)
+        
+        let btnDownLineView = UIView.init(frame: CGRect.init())
+        btnDownLineView.backgroundColor = UIColor.lightGray
+        self.addSubview(btnDownLineView)
+        
         self.cancleBtn = UIButton.init(type: .custom)
         self.cancleBtn?.setTitle("cancle", for: .normal)
         self.cancleBtn?.backgroundColor = .white
         self.cancleBtn?.setTitleColor(UIColor.black, for: .normal)
-        self.cancleBtn?.layer.borderWidth = 0.3
-        self.cancleBtn?.layer.borderColor = UIColor.lightGray.cgColor
         self.cancleBtn?.addTarget(self, action: #selector(self.cancleAction(sender:)), for: .touchUpInside)
         self.addSubview(self.cancleBtn!)
         
@@ -130,6 +136,18 @@ public class ZZActionSheetView: UIView,UITableViewDelegate,UITableViewDataSource
             make.left.right.equalTo(self)
             make.height.equalTo(cancleBtnHeight)
             make.bottom.equalTo(self.snp.bottom).offset(0)
+        }
+        
+        btnUpLineView.snp.makeConstraints { (make) in
+            make.left.right.equalTo(self)
+            make.height.equalTo(0.3)
+            make.bottom.equalTo((self.cancleBtn?.snp.top)!)
+        }
+        
+        btnDownLineView.snp.makeConstraints { (make) in
+            make.left.right.equalTo(self)
+            make.height.equalTo(0.3)
+            make.bottom.equalTo(self.snp.bottom)
         }
         
     }
